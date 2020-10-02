@@ -2,7 +2,7 @@
 
 # Критерии приема
 
-- Созданы репозитории `goit-js-hw-11-promisification`.
+- Создан репозиторий `goit-js-hw-11-promisification`.
 - При сдаче домашней работы есть две ссылки для каждого проекта: на исходные
   файлы и рабочую страницу на GitHub pages.
 - При посещении рабочей страницы (GitHub pages) задания, в консоли нету ошибок и
@@ -110,10 +110,7 @@ makeTransaction({ id: 73, amount: 100 }, logSuccess, logError);
  * Должно работать так
  */
 makeTransaction({ id: 70, amount: 150 }).then(logSuccess).catch(logError);
-
 makeTransaction({ id: 71, amount: 230 }).then(logSuccess).catch(logError);
-
 makeTransaction({ id: 72, amount: 75 }).then(logSuccess).catch(logError);
-
 makeTransaction({ id: 73, amount: 100 }).then(logSuccess).catch(logError);
 ```
